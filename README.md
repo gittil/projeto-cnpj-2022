@@ -1,6 +1,10 @@
 # PROJETO CNPJ 2022
 
-Com o objetivo de praticar os conhecimentos obtidos em Python, SQL e Spark com PySpark, criei esse projeto para tratar os dados abertos da Receita Federal e fazer um mapeamento do cenário das empresas em qualquer segmento.
+Com o objetivo de praticar os conhecimentos obtidos em Python, SQL e Spark com PySpark, criei esse projeto para tratar os dados abertos da Receita Federal.
+
+Os dados podem ser obtidos no link abaixo
+https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj
+
 
 Na primeira parte, iremos manipular os dados que se encontram em 10 arquivos CSV´s e possuem mais de 51 milhões de registro pois são todas as empresas do Brasil, independente do segmento.
 
