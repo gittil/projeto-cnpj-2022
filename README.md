@@ -7,7 +7,8 @@ https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros
 
 Se o link estiver quebrado, como geralmente está, dá pra ver os arquivos nesse outro: http://200.152.38.155/CNPJ/
 
-![imagem do site da RFB]()
+![imagem do site da RFB](https://github.com/gittil/projeto-cnpj-2022/blob/main/imagens/tela-site-rfb.png)
+
 
 O arquivo vem no formato .zip, então é só descompactar pra usar, porém, como o nome tem um "." bem no meio, no Windows ele não entende que é um CSV e você precisará renomear, tirando o "." e colocando no lugar certo ".csv".
 
