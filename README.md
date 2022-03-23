@@ -27,11 +27,13 @@ Os arquivos brutos extraídos foram colocados em uma pasta com o nome RAW.
 
 Na primeira parte do tratamento, iremos manipular os dados que se encontram nos 10 arquivos CSV´s dos estabelecimentos pois neles já temos as informações que precisamos e possuem mais de 51 milhões de registro pois são todas as empresas do Brasil, independente do segmento.
 
-Após organizar esses dados e realizar algumas limpezas e tratamentos, a saída será um arquivo parquet com todos os registros, porém, já com algumas colunas filtradas pois não nos interessa para nosso estudo.
+Após unificar esses 10 arquivos CSV's em um único DF, foi necessário um select para escolher quais seriam as colunas que seriam utilizadas no próximo passo do tratamento.
 
-Após essa etapa passaremos o filtro por atividade (CNAE) para filtar apenas o segmento que desejamos.
+Foram retirados dados como telefone e email para não expor essas informações.
 
 Nessa etapa iremos salvar os arquivos pré tratados em uma pasta chamada BRONZE.
 
+
 ## Carga dos Dados
- 
+
+loading...
