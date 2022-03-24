@@ -1,4 +1,4 @@
-
+import os
 
 
 def converterColuna(dataframe, nome_col, novoTipo):
@@ -15,3 +15,6 @@ def converterColuna(dataframe, nome_col, novoTipo):
     for nome in nome_col:
         dataframe = dataframe.withColumn(nome,dataframe[nome].cast(novoTipo))
     return dataframe 
+
+
+
