@@ -25,13 +25,17 @@ Os arquivos brutos extraídos foram colocados em uma pasta com o nome RAW.
 
 ## Tratando os Dados
 
-Na primeira parte do tratamento, iremos manipular os dados que se encontram nos 10 arquivos CSV´s dos estabelecimentos pois neles já temos as informações que precisamos e possuem mais de 51 milhões de registro pois são todas as empresas do Brasil, independente do segmento.
+Nossa estrutura de pasta local será a seguinte:
 
-Após unificar esses 10 arquivos CSV's em um único DF, foi necessário um select para escolher quais seriam as colunas que seriam utilizadas no próximo passo do tratamento.
+**RAW**: A pasta RAW receberá todos os dados brutos, da forma como eles são disponibilizados no site da RFB. Essa pasta servirá como uma Staging Area.
 
-Foram retirados dados como telefone e email para não expor essas informações.
+Link para o nbviewer: https://nbviewer.org/github/gittil/projeto-cnpj-2022/blob/main/01_extract_RAW.ipynb
 
-Nessa etapa iremos salvar os arquivos pré tratados em uma pasta chamada BRONZE.
+**BRONZE**: A pasta BRONZE receberá os dados já no formato parquet com o minimo de tratamento, como por exemplo, nome nas colunas e drop em algumas colunas para não expor dados sensiveis como email e telefone.
+
+**SILVER**: A pasta SILVER irá receber os dados refinados. Aqui faremos joins das tabelas que estão na pasta Bronze.
+
+**GOLD**: A pasta GOLD irá receber os dados finais já com agregações, group by, entre outras informações que serão utilizadas na criação dos Dashboards e Reports.
 
 
 ## Carga dos Dados
