@@ -1,6 +1,6 @@
 # PROJETO CNPJ 2022
 
-Com o objetivo de praticar os conhecimentos obtidos em Python, SQL e Spark com PySpark, criei esse projeto para tratar os dados abertos da Receita Federal.
+Com o objetivo de praticar os conhecimentos obtidos em **Python**, **Spark** com **PySpark** e **Spark SQL**, criei esse projeto para tratar os dados abertos da Receita Federal.
 
 
 ## Extraindo os Dados 
