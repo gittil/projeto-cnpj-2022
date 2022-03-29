@@ -1,7 +1,4 @@
-import os
-
-
-def converterColuna(dataframe, nome_col, novoTipo):
+def converter_coluna(dataframe, nome_col, novotipo):
     """Função para converter uma coluna no DF
 
     Args:
@@ -13,7 +10,7 @@ def converterColuna(dataframe, nome_col, novoTipo):
         DF: retorna o DF com as colunas alteradas
     """
     for nome in nome_col:
-        dataframe = dataframe.withColumn(nome,dataframe[nome].cast(novoTipo))
+        dataframe = dataframe.withColumn(nome,dataframe[nome].cast(novotipo))
     return dataframe 
 
 
